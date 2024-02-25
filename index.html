@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+border: 2px solid black;
+border-radius: 8px;
+margin: 15px 30px;
+font-size: 17px;
+padding: 8px;
+background-image: url(light.jpg);}
+
+
+.main-heading{
+text-align: center;
+
+}
+#bu{background-color:green; text-align: center;
+
+}
+
+
+    </style>
+    
+</head>
+<body>
+    
+    <h1 class="main-heading" >Payment Form </h1>
+    <hr>
+    <form>
+        <h3>Contact Information</h3>
+        <p>Name: *<br><input type="text" placeholder="Pritam Barala" required style="width:1250px; height: 20px;"></p>
+        <fieldset> 
+            <legend>Gender</legend>
+        <p>Male * <input type="radio" name="gender" required> Female * <input type="radio" name="gender" required></p>
+    </fieldset>
+    <p>Address: <br><textarea cols="168" rows="10" placeholder="enter your address"></textarea></p>
+   
+    <p>Email * <br><input type="email" placeholder="abc@gmail.com" required style="width:1250px; height: 20px;"></p>
+    <p>Pincode: <br><input type="number" placeholder="000000" style="width:1250px; height: 20px;"></p>
+
+    <h3>Payment Information</h3>
+
+    <p>Card Type * <br> <select required style="width:1250px; height: 20px;">
+        <option>-select a card type-</option>
+        <option value="credit card">credit card</option>
+        <option value="debit card">debit card</option>
+    </select>
+
+    </p>
+    <p>Card Name *<br> <input type="text" placeholder="Priam Barala" required style="width:1250px; height: 20px;"></p>
+    <p>Card Number * <br><input type="number" placeholder="1111-2222-3333-4444" required style="width:1250px; height: 20px;"></p>
+    <p>Expiry Date * <br><input type="date" required style="width:1250px; height: 20px;"></p>
+    <p>CVV * <hr><input type="number" placeholder="123" required style="width:1250px; height: 20px;"></p>
+<button id="bu" style="width:1250px; height: 20px;">Submit</button>
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
